@@ -1,117 +1,123 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Webpage</title>
-    
-    
-    
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            background-color: #f5f5f5;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
-        
-        .container {
-            width: 80%;
-            margin: auto;
-            max-width: 1200px;
-            padding-top: 20px;
-        } 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        .profile-section {
-            display: flex;
-            align-items: center;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            margin-top: 20px;
-        }
-        
-        .profile-image img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin-right: 20px;
-        }
-        
-        .profile-info h1 {
-            margin: 0;
-            font-size: 2rem;
-            color: #333;
-        }
-        
-        .profile-info p {
-            margin: 5px 0;
-            font-size: 1.1rem;
-        }
-        
-        .contact-info {
-            margin-top: 10px;
-        }
-        
-        .contact-links {
-            list-style-type: none;
-            padding: 0;
-            display: flex;
-            gap: 10px;
-        }
-        
-        .contact-links li a {
-            color: #007bff;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-        
-        .contact-links li a:hover {
-            color: #0056b3;
-        }
-        
-        .content {
-            margin-top: 30px;
-        }
-        
-        .education-section, .publications-section {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            margin-bottom: 20px;
-        }
-        
-        .education-section ul, .publications-section ul {
-            list-style-type: none;
-            padding-left: 0;
-        }
-        
-        .education-section li, .publications-section li {
-            margin-bottom: 10px;
-        }
-        
-        .publications-section li a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        
-        .publications-section li a:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
 
-</html>
+.container {
+    width: 80%; /* Maintains consistency with topbar */
+    max-width: 1200px;
+    padding-top: 20px;
+    margin: 0 auto; /* Centers the container */
+}
+
+.topbar {
+    background-color: #f5f5f5; /* Match the page background */
+    padding: 10px 0;
+    box-shadow: none; /* No shadow for a cleaner look */
+    width: 80%; /* Ensures alignment with the container width */
+    margin: 10px auto 0 auto; /* Centered horizontally */
+}
+
+.topbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: left;
+}
+
+.topbar li {
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.topbar li:hover {
+    background-color: #e0e0e0; /* Lighter grey for hover effect */
+}
+
+.topbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.topbar a:hover {
+    color: #0056b3;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 5px; /* Reduced top margin to decrease space */
+}
+
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.profile-info h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #333;
+}
+
+.profile-info p {
+    margin: 5px 0;
+    font-size: 1.1rem;
+}
+
+.contact-info {
+    margin-top: 10px;
+}
+
+.contact-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.contact-links li a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-links li a:hover {
+    color: #0056b3;
+}
+
+.content {
+    margin-top: 20px; /* Consistent spacing for the content below */
+}
+
+.content-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.content-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.content-section li, li {
+    margin-bottom: 10px;
+}
