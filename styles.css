@@ -61,6 +61,19 @@ body {
     margin-right: 20px;
 }
 
+/* Add responsive styles for mobile devices */
+@media (max-width: 768px) {
+    .profile-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .profile-image img {
+        margin-right: 0;
+        margin-bottom: 20px; /* Add some space between the image and the text */
+    }
+}
+
 .profile-info h1 {
     margin: 0;
     font-size: 2rem;
