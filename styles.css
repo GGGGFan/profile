@@ -416,6 +416,10 @@ a {
     font-size: clamp(2.6rem, 5vw, 4.2rem);
 }
 
+.publications-page .page-intro h1 {
+    font-size: clamp(2.2rem, 4vw, 3.4rem);
+}
+
 .page-intro .button {
     margin-top: 26px;
 }
